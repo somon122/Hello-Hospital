@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".MedicalHistory_Details.MedicalHistory_Form_Activity">
+
+
+
+
+    <ImageView
+        android:id="@+id/prescription_image_id"
+        android:background="@drawable/ic_camara"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/takePrescription_id"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Take Prescription"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spannerDoctorNameList_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/patient_Details_id"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:hint=" Details "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/patient_Date_id"
+        android:textSize="20sp"
+        android:inputType="date"
+        android:hint=" Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:text=" Save Button"
+        android:id="@+id/patient_Save_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:text=" Show Data Button"
+        android:id="@+id/patient_ShowAllData_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

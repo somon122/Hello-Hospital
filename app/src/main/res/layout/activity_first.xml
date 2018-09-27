@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_screen"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <TextView
+        android:gravity="center"
+        android:text="Health is Wealth"
+        android:textSize="30sp"
+        android:textColor="#29e41f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="Doctors"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Doctors"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+ <Button
+     android:onClick="MedicalHistory"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Medical History"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+</LinearLayout>
